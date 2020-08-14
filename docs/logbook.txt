@@ -1,0 +1,180 @@
+#############################################################################################################################
+###LOG BOOK DETAILS SUMMARY###
+#Maintain a log book through the entire project that records:
+
+#date of regular, stand-up meetings
+
+#summary of decisions made in stand-up meetings, requirements elicited and key design decisions (hand-written user-stories, CRC cards etc.)
+
+#responsibilities allocated to each team member and tasks to be accomplished for the next meeting
+
+#progress of tasks using a velocity chart (a hand-drawing will suffice, no sophisticated tool needed), summary of decisions made in stand-up meetings
+
+#milestones achieved
+
+#reflection if assigned tasks (decided from last meeting) have been achieved
+
+#any obstacles
+
+###MARKS will be awarded for the log book ( in weeks 7 and 10 )
+###END OF LOG BOOK DETAILS SUMMARY###
+#############################################################################################################################
+
+Meeting_1 (IN-PERSON):
+    date&time: Tuesday, 05/03/2019
+    
+    main content: Milestone 1: product backlog(10%, due sunday wk3)
+    
+    decription:  
+        1. High Level Epic Stories from the problem statement
+        2. Each epic story broken into user stories – Each user-story must define:
+            a unique story identifier (e.g., UC1)
+            a short description of the feature based on the Role-Goal-Benefit template (Refer to the RGB model described in the lectures)
+            an estimate for the implementation of the user story in user story points (e.g., UC1 = 2 User story points, where each point = 2.5 hours)
+            priority of implementation
+        3. acceptance criteria for each user story (Refer to the 3 C’s model described in the lectures)
+   ######################################################################################################################
+   #LINK TO MILESTONE1: https://docs.google.com/document/d/1aBwQOpnV7o_H_ftrXtBuz9svHMVAZJGa_9rk_2St8N4/edit?usp=sharing#
+   ###################################################################################################################### 
+#############################################################################################################################
+    
+Meeting_2 (WEB):
+    date&time: Thursday, 07/03/2019
+    
+    main content: Milestone 1: product backlog(10%, due sunday wk3)
+    
+    decription:  
+        1. Improved High Level Epic Stories from the problem statement
+        2. Split the Epic stories
+        3. Correct errors in user-stories
+        4. Improved acceptance criteria for each user story (Refer to the 3 C’s model described in the lectures)
+
+#############################################################################################################################
+  
+ Start coding on 21/03/2019 9:33pm   
+ Created some classes on master branch
+ 2 branches are required for milestone2:
+ 1) Customer - Self Ordering
+ 2) Staff - Service Order
+ TODO:
+ 1) Figure out the contents of each classes
+ 2) Distribute workload
+ ---XJ
+ #############################################################################################################################
+ 
+ Milestone1 Achieved at the end of week4
+ The reflection from tutors is basically simplify the redundant complicated functions in the user stories to reduce the 
+ complexity of implementing them
+ 
+ #############################################################################################################################
+ 
+ Meeting_3 (WEB)
+     date&time: Thursday, 28/03/2019
+    
+     main content: Milestone 2 part 1: class diagram
+    
+     description: 
+        1) construct the classes and the basic structure
+        2) modified the code to match class diagram
+ 
+ #############################################################################################################################
+ 
+ Milestone2 achieved at the end of week6
+    1) finished the class-diagram
+    2) coding on going
+    
+Reflection:
+Had to change some aspects of the class diagram but for the most part, tutor said it was quite good as it had all the necessary classes implemented correctly and all we had to do was remove the customer and staff class as well as remove the dish.py and drinks.py so that we can directly access the: burger, wraps, fries, nuggets, bottles, etc, classes directly via "food" class which we had to merge drinks and dishes into.
+##############################################################################################################################
+
+Meeting_4 (WEB)
+    date&time: Thursday, 04/04/2019
+    
+    1) Discussed how the overall implementation of the program would work and developed the conceptual framework of the program.
+    2) Delved into the minutiae for each code file and align with User Stories and overall concepts.
+    3) Split up the work for each member and worked together on issues that each individual was facing.
+    
+##############################################################################################################################
+
+Meeting_5 (IN-PERSON)
+    date&time: Wednesday, 10/04/2019
+    
+    1) Discussed steps going forward from Milestone 2 with Sam and Aarthi: Dheeraj and Aven writing most of the code required for Milestone 3 frontend as XJ did majority of Milestone 2 backend. 
+    2) Discussed how the system would work and what minimum, required pages there would be to implement a working system. So far we have: home page (adding your order), order screen (editing your order) and confirmation page (showing the confirmed, final order information). Each page (except home obvsiously) will have a "Go back to home screen" button similar to Week_07/08 Lab.
+    3) Started Milestone 3 frontend, specifically concentrating on the "templates".
+    
+##############################################################################################################################
+
+Meeting_6 (WEB)
+    date&time: Thursday, 11/04/2019
+    
+    1) Further discussed how the system would work following the changes in the specifications such as the addition of sundaes (small, medium and large).
+    2) Split up the roles where XJ would handle the changes in backend whilst Aven and Dheeraj would split up the front-end between themselves.
+    3) Planned next tentative meeting on Saturday, 13/04/2019 to catch-up on the progress of each member and if anyone was stuck and needed help.
+    
+##############################################################################################################################
+
+Meeting_7 (IN-PERSON)
+    date&time: Tuesday, 16/04/2019
+    
+    1) Discussed with tutor on "pickle" implementation as well as other parts regarding back-end and front-end.
+    2) Had a short-update on roles and what each person was upto, and some of front-end, such as mains, was already done by then.
+    3) Planned next tentative meeting on Friday, 19/04/2019
+
+##############################################################################################################################
+
+Meeting_8 (WEB)
+    date&time: Thursday, 18/04/2019
+    
+    1) Had some problems with make_order function in the backend (routes.py) and discussed what we could do to fix it.
+    2) Entire customer front-end is finished whislt staff front-end was partly done.
+    3) Most of pickle is done and fixed some bugs in code.
+    4) Had updates of where each team-member was upto.
+    5) Planned next tentative meeting on Saturday, 20/04/2019
+    
+##############################################################################################################################
+
+Meeting_9 (WEB)
+    date&time: Saturday, 20/04/2019
+    
+    1) Nearly finished entire front-end for staff.
+    2) Editing some parts of customer front-end due to finding some bugs in the code.
+    3) Nearly done with changes to backend.
+    4) Planned next tentative meeting on Monday, 22/04/2019
+
+##############################################################################################################################
+
+Meeting_10 (WEB)
+    date&time: Monday, 22/04/2019
+    
+    1) Entirety of code was finished on Sunday, 21/04/2019.
+    2) Did some simple styling to make front-end look more "appealing".
+    3) Started on diagrams and implementing the changes to the docs file [including User Stories, Logbook, ER diagram, etc]
+    4) Everyone was in unanimous agreement and happy with the code and progress so far, and had successfully resolved any conflicts they had previously, in a fair and equal manner.
+
+##############################################################################################################################
+
+Feedback of milestone3:
+
+    Since we deleted the functional branches arter we merged them to master, some commits disappeared and it caused some confusion of work distribution and contribution.
+    
+    Aven's commits are affected most, because most of his works were on a deleted front-end branch. Aven built the home page, order custom main page, add extra page, order premade main page and the related function. He also helped XJ and Dheeraj to build order confirmation page and order side/drink/dessert page.
+    
+    Dheeraj built order side/drink/dessert pages, staff main page, staff serve order page, staff check inventory page, staff refill inventory page and the related functions.
+    
+    XJ built order confirmation pages, check order status page, staff view orders page, staff login page and the related functions. He also helped Dheeraj to build staff serve order page. He also built the backend and added CSS style to the frontend.
+    
+    All of us helped each others when we encounter any difficulties, the working atmosphere was great during the iteration3(milestone3).
+
+##############################################################################################################################
+
+Meeting_11 (WEB)
+    date&time: Saturday, 27/04/2019
+    
+    1) Latest document files successfully uploaded onto the amster branch and combined into a Final report file.
+    2) Aven updated the user stories to reflect the changes for Milestone 3, XJ worked on the final Class Diagrams whilst Dheeraj worked on the ER diagram.
+    3) Everyone was happy with the final product and the report.
+    
+##############################################################################################################################
+
+##############################################################################################################################

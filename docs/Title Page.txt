@@ -1,0 +1,11 @@
+COMP1531 Group project 
+“Gourmet”
+Title Page
+Term1,  2019
+     
+Group Name: XJ_Aven_Dheeraj
+
+Team Members/zID’s:
+Aven Au (z5208734)
+Dheeraj Viswanadham (z5204820)
+Xingjian Li (z5190719)
