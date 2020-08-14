@@ -1,4 +1,5 @@
-# COMP1531-Gourmet
-## Worked With:
-### https://github.com/dViswanadham
-### https://github.com/lixxj
+# This repo contains the files for 1531 19T1 assignment "Gourmet"
+
+# XJ
+# Aven
+# Dheeraj
